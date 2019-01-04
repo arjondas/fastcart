@@ -1,0 +1,64 @@
+.ItemBlock {
+	color: white;
+	box-sizing: border-box;
+	display: flex;
+	padding: 5px;
+	width: auto;
+	height: 100px;
+	background-color: salmon;
+}
+
+.UnitPrice {
+	font-size: 11px;
+}
+
+.Picture {
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: blueviolet;
+	width: 70px;
+}
+
+.Description {
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: brown;
+	width: 50%;
+}
+
+.Quantity {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	background-color: aqua;
+	width: 20px;
+}
+
+.QLabel {
+	width: auto;
+	padding-top: 50%;
+	padding-bottom: 50%;
+	height: 100%;
+	background-color: blue;
+}
+
+.QButtonPos {
+	width: auto;
+	font-size: 20px;
+	background-color: green;
+	cursor: pointer;
+}
+
+.QButtonNeg {
+	width: auto;
+	font-size: 20px;
+	background-color: red;
+	cursor: pointer;
+}
+
+.Price {
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: cadetblue;
+	flex: 1;
+}
