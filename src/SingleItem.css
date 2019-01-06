@@ -4,6 +4,10 @@
 	height: 300px;
 	/* border: 1px solid #61dafb; */
 	border-radius: 5px;
+	margin: 20px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none;
 }
 
 .ItemInfo {
