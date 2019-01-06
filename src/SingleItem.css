@@ -1,0 +1,112 @@
+.Singleton {
+	box-sizing: border-box;
+	width: 200px;
+	height: 300px;
+	/* border: 1px solid #61dafb; */
+	border-radius: 5px;
+}
+
+.ItemInfo {
+	box-sizing: border-box;
+	width: 200px;
+	height: 250px;
+	border: 1px solid #61dafb;
+	border-radius: 10px 10px 0 0;
+}
+
+.AddToCart {
+	box-sizing: border-box;
+	width: 200px;
+	height: 50px;
+	border: 1px solid #61dafb;
+	border-top: 0px;
+	border-radius: 0 0 10px 10px;
+}
+
+.AddToCartButton {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	line-height: 48px;
+	border-radius: 0 0 10px 10px;
+	cursor: pointer;
+	/* background-color: #61dafb; */
+}
+
+.FirstView {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.FirstViewContainer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+
+.FirstViewPicture {
+	width: 100%;
+	height: 80%;
+	background-color: white;
+	border-radius: 5px 5px 0 0;
+}
+
+.FirestViewTitle {
+	width: 100%;
+	height: 20%;
+	line-height: 25px;
+	background-color: green;
+}
+
+.SecondView {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+	z-index: 10;
+}
+
+.SecondView:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+}
+
+.Incrementer {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	border-radius: 0 0 10px 10px;
+}
+
+.Plus {
+	box-sizing: border-box;
+	width: 20%;
+	height: 100%;
+	line-height: 48px;
+	font-size: 20px;
+	/* border-left: 1px solid #61dafb; */
+	cursor: pointer;
+}
+
+.Minus {
+	box-sizing: border-box;
+	width: 20%;
+	height: 100%;
+	line-height: 48px;
+	font-size: 20px;
+	/* border-right: 1px solid #61dafb; */
+	cursor: pointer;
+}
+
+.Quantity {
+	box-sizing: border-box;
+	width: 60%;
+	line-height: 48px;
+	height: 100%;
+	cursor: pointer;
+}
